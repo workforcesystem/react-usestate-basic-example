@@ -22,11 +22,9 @@ const Home = () => {
 
   return (
     <>
-    <div className="main">
-
-
+    <div className="main-container bg-dark">
       {/* Search Input Form */}
-    <form onSubmit={handleSearch} className="mb-4">
+    <form onSubmit={handleSearch} className="mb-3">
           <div className="input-group">
             <input
               type="text"

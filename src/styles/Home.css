@@ -1,12 +1,8 @@
-.main{
+.main-container{
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: start;
     height: 650px;
 }
 
