@@ -1,54 +1,84 @@
-# React + TypeScript + Vite
+# 🎬 Movie Search App To Undestand usage of useState() hook in ReactJs
+# Author - Workforce Systems
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, dark-themed movie site built with **React, TypeScript, and Bootstrap**. Users can search for movies from a predefined list and mark them as favorites.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
+- 🔍 **Search Functionality**: Users can search for movies dynamically.
+- 🎭 **Movie Cards**: Displays movie posters, titles, and release years.
+- ❤️ **Favorite Button**: Allows users to mark movies as favorites.
+- 🏗 **Responsive Design**: Uses Bootstrap for a clean, dark-themed UI.
+- 🏠 **Navbar & Footer**: Improves user navigation and UI aesthetics.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tech Stack
+- **Frontend**: React, TypeScript, Bootstrap
+- **State Management**: useState Hook
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 🚀 Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/workforcesystem/react-usestate-basic-example.git
+   cd react-usestate-basic-example
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+---
+
+## 🏗 Project Structure
+```
+react-usestate-basic-example/
+│-- src/
+│   │-- components/
+│   │   │-- MovieCard.tsx  # Bootstrap-based movie card component
+│   │   │-- Navbar.tsx      # Navbar for navigation
+│   │   │-- Footer.tsx      # Footer component
+│   │-- pages/
+│   │   │-- Home.tsx        # Main homepage with search functionality
+│   │-- assets/             # Store images, icons, etc.
+│   │-- styles/             # Custom styles if needed
+│   │-- App.tsx             # Main application file
+│   │-- index.tsx           # Entry point of the app
+│-- public/
+│-- package.json
+│-- README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📷 Screenshots
+_Include screenshots here if needed._
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 🎯 Future Enhancements
+- 🛒 Add a "Watchlist" feature.
+- 🔗 Fetch real movie data using an API (e.g., TMDB, OMDB).
+- 🎨 Improve UI animations & effects.
+
+---
+
+## 📜 License
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 📬 Contact
+For any issues or improvements, feel free to create a **GitHub issue** or reach out!
+
+🔗 **GitHub**: [workforcesystem](https://github.com/workforcesystem)
+
