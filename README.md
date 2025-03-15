@@ -61,7 +61,9 @@ react-usestate-basic-example/
 ---
 
 ## 📷 Screenshots
-_Include screenshots here if needed._
+Here’s a preview of the movie search app:
+
+![Movie App Preview](./assets/Homepage.png)
 
 ---
 
