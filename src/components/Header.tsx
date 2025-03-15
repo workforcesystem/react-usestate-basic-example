@@ -4,7 +4,7 @@ const Header: React.FC = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="/">🎬 MovieApp</a>
+        <a className="navbar-brand" href="/">🎬 MoviesBy Workforce</a>
         <button
           className="navbar-toggler"
           type="button"
