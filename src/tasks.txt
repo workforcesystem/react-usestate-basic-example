@@ -1,0 +1,12 @@
+1. Install Bootstrap
+2. Setup Initial Components
+-Header
+-Home
+-MovieCard
+-Footer
+3. Push all the changes to github repo 'react-usestate-basic-example'
+
+
+Minor Tasks For MovieCard & Home Components:
+1. Props
+2. useState()
